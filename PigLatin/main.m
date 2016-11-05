@@ -9,9 +9,12 @@
 #import <Foundation/Foundation.h>
 
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+     {
+        
+        NSString *something = @"Book";
+        
+        NSLog(@"%@", [something stringByPigLatinization]);
+        
     }
     return 0;
 }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		411E8F581DCD879100B4895F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 411E8F571DCD879100B4895F /* main.m */; };
+		411E8F601DCD886D00B4895F /* NSString+PigLatin.m in Sources */ = {isa = PBXBuildFile; fileRef = 411E8F5F1DCD886D00B4895F /* NSString+PigLatin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		411E8F541DCD879100B4895F /* PigLatin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PigLatin; sourceTree = BUILT_PRODUCTS_DIR; };
 		411E8F571DCD879100B4895F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		411E8F5E1DCD886D00B4895F /* NSString+PigLatin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PigLatin.h"; sourceTree = "<group>"; };
+		411E8F5F1DCD886D00B4895F /* NSString+PigLatin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PigLatin.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		411E8F4B1DCD879100B4895F = {
 			isa = PBXGroup;
 			children = (
+				411E8F5E1DCD886D00B4895F /* NSString+PigLatin.h */,
+				411E8F5F1DCD886D00B4895F /* NSString+PigLatin.m */,
 				411E8F561DCD879100B4895F /* PigLatin */,
 				411E8F551DCD879100B4895F /* Products */,
 			);
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				411E8F581DCD879100B4895F /* main.m in Sources */,
+				411E8F601DCD886D00B4895F /* NSString+PigLatin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
